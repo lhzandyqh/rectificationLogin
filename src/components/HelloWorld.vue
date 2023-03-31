@@ -338,7 +338,7 @@ export default {
         var loginName = localStorage.getItem('loginName')
         // window.open('https://zhongkeruitong.top/zgnbzlgl/index.html?/jwt=' + jwt)
         // window.open(' http://192.168.1.5:9528/?/jwt=' + jwt)
-        window.open('https://zhongkeruitong.top/zgnbzlgl/?/loginName=' + loginName)
+        window.open('http://172.16.96.30:80/zgnbzlgl/?/loginName=' + loginName)
         // window.open('http://192.168.1.11/zgnbzlgl/index.html?/loginName=' + loginName)
         // window.open('http://192.168.1.11/zgnbzlgl/index.html#/dashboard?/loginName=' + loginName)
       }
@@ -359,7 +359,7 @@ export default {
         } else {
           var loginName = localStorage.getItem('loginName')
           // window.open('https://zhongkeruitong.top/zgstudent/index.html')
-          window.open('https://zhongkeruitong.top/zgstudent/?/loginName=' + loginName) // 20201214注释
+          window.open('http://172.16.96.30:80/zgstudent/?/loginName=' + loginName) // 20201214注释
           // window.open('http://192.168.1.11/yz_student/student/index.html?/loginName=' + loginName)
         }
       }
@@ -382,7 +382,7 @@ export default {
           var loginName = localStorage.getItem('loginName')
           // window.open('https://zhongkeruitong.top/zgnbzlgl/index.html?/jwt=' + jwt)
           // window.open(' http://192.168.1.5:9528/?/jwt=' + jwt)
-          window.open('https://zhongkeruitong.top/zgzy/zgzy/?/loginName=' + loginName) // 20201214注释
+          window.open('http://172.16.96.30:80/zgzy/zgzy/?/loginName=' + loginName) // 20201214注释
           // window.open('192.168.1.11/zgzy/zgzy/?/loginName=' + loginName)
           // window.open('http://192.168.1.11/zgzy/#/tab/?/loginName=' + loginName)
         }
@@ -406,9 +406,11 @@ export default {
           var loginName = localStorage.getItem('loginName')
           // window.open('https://zhongkeruitong.top/zgnbzlgl/index.html?/jwt=' + jwt)
           // window.open(' http://192.168.1.5:9528/?/jwt=' + jwt)
-          window.open('https://zhongkeruitong.top/zgteacher/?/loginName=' + loginName)// 20201223注释
+          // window.open('http://172.16.96.30:80/zgteacher/?/loginName=' + loginName)// 20201223注释    lixian  8.23xiugai
           // window.open('192.168.1.11/zgteacher/?/loginName=' + loginName)
           // window.open('http://192.168.1.11/yz_student/teacher/index.html?/loginName=' + loginName)// 20201224注释
+          window.open(' https://zhongkeruitong.top/zgteacher/?/loginName=rmyzAdmin#/dashboard/?/loginName=' + loginName)// 20201223注释
+
         }
       }
     },
@@ -430,7 +432,7 @@ export default {
           var loginName = localStorage.getItem('loginName')
           // window.open('https://zhongkeruitong.top/zgnbzlgl/index.html?/jwt=' + jwt)
           // window.open(' http://192.168.1.5:9528/?/jwt=' + jwt)
-          window.open('https://zhongkeruitong.top/assetstorage/?/loginName=' + loginName)
+          window.open('http://172.16.96.30:80/assetstorage/?/loginName=' + loginName)
           // window.open('http://192.168.1.11/assetstorage/?/loginName=' + loginName)
         }
       }
@@ -542,7 +544,7 @@ export default {
       })
     },
     gotoBigScreen: function () {
-      window.open('https://zhongkeruitong.top/zgbigscreen/#/dashboard')
+      window.open('http://172.16.96.30:80/zgbigscreen/#/dashboard')
     }
   }
 }

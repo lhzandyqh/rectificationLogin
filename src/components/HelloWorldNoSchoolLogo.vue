@@ -10,6 +10,7 @@
 <!--      </div>-->
       <div class="school_title">
         <img src="../assets/no_school_title.png">
+<!--        <img src="../assets/school_title.png">-->
       </div>
       <div class="login_container">
         <div style="margin-top: 40px">
@@ -139,11 +140,11 @@
             </div>
           </div>
           <div class="system_logo">
-            <div class="logo_con" style="text-align: center" @click="gotoWuxiao">
-              <img style="width: 60%;height: 80%" src="../assets/shengya.png">
+            <div class="logo_con" style="text-align: center" @click="gotoDangjian">
+              <img style="width: 60%;height: 80%" src="../assets/dangjian.png">
             </div>
             <div style="text-align: center">
-              <span style="font-size: 14px;font-weight: bolder;color: #121212">生涯测评</span>
+              <span style="font-size: 14px;font-weight: bolder;color: #121212">党建平台</span>
             </div>
           </div>
         </div>
@@ -314,6 +315,7 @@ export default {
         type: 'warning'
       })
     },
+
     gotoOa: function () {
       if (this.loginFlag === true) {
         this.$message({
@@ -343,6 +345,9 @@ export default {
         // window.open('http://192.168.1.11/zgnbzlgl/index.html?/loginName=' + loginName)
         // window.open('http://192.168.1.11/zgnbzlgl/index.html#/dashboard?/loginName=' + loginName)
       }
+    },
+    gotoDangjian: function () {
+      window.open('http://zhongkeruitong.top/zg-partyBuild/') // 20201214注释  2021.8.9lixian genggai
     },
     gotoXueshen: function () {
       const per = '学生'
